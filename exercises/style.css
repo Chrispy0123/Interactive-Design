@@ -10,7 +10,7 @@
 
 h1 {
   
-  color: red;
+  color: brown;
   
 }
 
@@ -18,7 +18,7 @@ h1 {
 
 p {
   font-family: Arial, sans-serif;
-  border: 3px solid black; 
+  border: 3px solid red; 
   padding: 10px;
   
 }
@@ -28,8 +28,8 @@ p {
 .red-box {
   width: 300px;
   height: 80px;
-  background-color: red;
-  border: 5px solid blue;
+  background-color: brown;
+  border: 5px solid red;
   padding: 10px;
   margin-left: 2px;
  
