@@ -23,7 +23,10 @@ p {
   
 }
 
-
+table {
+  width: 200px;
+  height: 200px;
+}
 
 .red-box {
   width: 300px;
@@ -35,3 +38,7 @@ p {
  
 }
 
+.position {
+  position: relative;
+  left: 300px;
+}
