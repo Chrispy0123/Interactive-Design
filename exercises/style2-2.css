@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+  <style>
+
+  body {
+  background-color: lightblue;
+}
+    p.exl {
+
+      padding:  45px;
+    }
+    p.exl {
+
+      padding-right: 400px;
+    }
+
+    p.exl{
+
+      padding-left: 400px;
+    }
+
+    p.exl {
+      padding-top: 200px;
+    }
+      h1 {
+        color: skyblue;
+        font-family: 'Brush Script MT', cursive;
+        font-size:  300%;
+      }
+      p{
+        color: white;
+        font-family: 'Brush Script MT', cursive;
+        font-size:  150%;
+      }
+      </style>
+      </head>
+      <body style="backround-color:skyblue"
+      >
+      </html>
