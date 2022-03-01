@@ -1,0 +1,22 @@
+ body {
+          font-family: 'Helvetica', sans-serif;
+          background-color: lightblue;
+          color: black;
+          font-size: 150%;
+        }
+
+        h1 {
+            font-family: 'Brush Script MT', cursive;
+            color: darkblue;
+            font-size: 600%;
+            text-align: center;
+        }
+
+        h2 {
+            text-align: center;
+        }
+
+        h3 {
+            text-align: center;
+        }
+
