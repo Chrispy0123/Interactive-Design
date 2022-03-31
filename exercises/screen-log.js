@@ -3,5 +3,5 @@ document.addEventListener('mousemove', logKey);
 
 function logKey(e) {
   screenLog.innerText = `
-    Screen X/Y: ${e.screenX}, ${e.screenY}`;
+    Coordinates X/Y: ${e.screenX}, ${e.screenY}`;
 }
