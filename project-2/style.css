@@ -1,0 +1,17 @@
+h1 {
+          font-family: 'Courier New', monospace;
+          color: black;
+           text-align: center;
+           font-size: 200%;
+        }
+h2 {
+          font-family: 'Courier New', monospace;
+          color: black;
+           text-align: center;
+           font-size: 150%;
+        }
+.center {
+  margin: auto;
+  width: 60%;
+  padding: 10px;
+}
