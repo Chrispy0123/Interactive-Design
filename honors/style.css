@@ -1,0 +1,175 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: arial, Sans-serif;
+  font-size: 20px;
+  margin: 40px;
+}
+
+/* this is the container with all the grid items--the grid is specified here */
+
+.container {
+  display: grid;
+
+  /* ( grid-template-columns ) specifies the amount of space each column takes, notice there are three numbers: 16.5% 1fr 16.5% -- 
+  this specifies there should be a three column grid, the outer columns take up 16.5% of the total with of 
+  the container--since the width isn't specified, these items take up 16.5% of the window. 
+  The center item takes up 1fr, which stands for 1 Fraction, it means it takes up one part of the 
+  available space, so the center column takes up the rest of the space that is available. 
+  Here is a simple equation to explain this, if the total screen width and height is 100% then: 100-16.5-16.5=67--
+  so the rest of the available space is 67%, and the center column takes up this space. */
+
+  grid-template-columns: 16.5% 1fr 16.5%;
+
+  /* (grid-template-areas) identifies the items that should be in the grid, and identifies them by class name. */
+  grid-template-areas: "one two three";
+  grid-gap: 5px;
+
+  height: 100%;
+}
+
+/* below are the individual grid items. */
+
+.one {
+  grid-area: one;
+  display: flex;
+  justify-content: left;
+  padding-left: 0%;
+  padding-right: 0%;
+}
+
+.two {
+  grid-area: two;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.three {
+  grid-area: three;
+  display: flex;
+  justify-content: right;
+  padding-left: 0%;
+  padding-right: 0%;
+}
+
+.button {
+  position: fixed;
+  padding: 20px;
+  color: white;
+  background-color: orange;
+}
+
+#gradb1 {
+  height: 0.8%;
+  width: 95%;
+  background-color: red; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to bottom right, blue, lightblue);
+}
+
+#gradb2 {
+  height: 1.5%;
+  width: 95%;
+  background-color: red; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to bottom right, blue, lightblue);
+}
+
+#gradb3 {
+  height: 100px;
+  width: 21%;
+  vertical-align: middle;
+  background-color: red; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to bottom right, blue, lightblue);
+}
+
+#gradb4 {
+  height: 1.5%;
+  width: 95%;
+  outline: 5px solid blue;
+}
+
+#gradb5 {
+  height: 2%;
+  width: 95%;
+  background-color: red; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to bottom right, blue, lightblue);
+}
+
+#gradb6 {
+  height: 1.3%;
+  width: 95%;
+  background-color: red; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to bottom right, blue, lightblue);
+}
+
+#gradr1 {
+  height: 1.7%;
+  width: 95%;
+  background-color: red; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to bottom right, red, orange);
+}
+
+#gradr2 {
+  height: 0.8%;
+  width: 95%;
+  background-color: red; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to bottom right, red, orange);
+}
+
+#gradr3 {
+  height: 0.8%;
+  width: 95%;
+  background-color: red; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to bottom right, red, orange);
+}
+
+#gradr4 {
+  height: 1.3%;
+  width: 95%;
+  background-color: red; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to bottom right, red, orange);
+}
+
+.center {
+  text-indent: 50px;
+}
+
+.blue-stars {
+  font-size: 150%;
+  color: blue;
+  text-align: center;
+  line-height: 0.05;
+  font-size: 5vw;
+}
+
+.red-stars {
+  font-size: 150%;
+  color: red;
+  text-align: center;
+  line-height: 0.05;
+  font-size: 5vw;
+}
+
+a,
+a:hover,
+a:focus,
+a:active {
+  text-decoration: none;
+  color: inherit;
+}
+
+h1 {
+  @media all and (min-width: 600px) {
+    div.example {
+      font-size: 40px;
+    }
+  }
+
+  @media all and (max-width: 600px) {
+    div.example {
+      font-size: 10px;
+    }
+  }
+}
